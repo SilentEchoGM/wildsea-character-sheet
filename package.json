@@ -1,0 +1,33 @@
+{
+  "name": "wildsea-character-sheet",
+  "version": "0.0.1",
+  "author": {
+    "email": "silent@silentecho.eu",
+    "name": "SilentEcho",
+    "url": "https://twitter.com/SilentEchoDE"
+  },
+  "scripts": {
+    "dev": "svelte-kit dev",
+    "build": "svelte-kit build",
+    "package": "svelte-kit package",
+    "preview": "svelte-kit preview",
+    "check": "svelte-check --tsconfig ./tsconfig.json",
+    "check:watch": "svelte-check --tsconfig ./tsconfig.json --watch"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-auto": "next",
+    "@sveltejs/kit": "next",
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/svelte": "^3.0.3",
+    "@types/jest": "^27.4.0",
+    "jest": "^27.4.7",
+    "svelte": "^3.44.0",
+    "svelte-check": "^2.2.6",
+    "svelte-jester": "^2.3.1",
+    "svelte-preprocess": "^4.9.4",
+    "ts-jest": "^27.1.3",
+    "tslib": "^2.3.1",
+    "typescript": "^4.4.3"
+  },
+  "type": "module"
+}
