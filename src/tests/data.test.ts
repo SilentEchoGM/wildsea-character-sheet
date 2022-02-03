@@ -2,13 +2,14 @@
  * @jest-environment jsdom
  */
 
-import data from "$data";
+import data from "$data/character";
+import type { CharacterData } from "$types/data";
 
 describe("Test data factory", () => {
   test("Build data structure", () => {
     const $data = data();
-    console.log($data);
+    console.log(JSON.stringify($data));
 
-    expect($data).toBeInstanceOf({});
+    expect($data).toBe<CharacterData>($data);
   });
 });

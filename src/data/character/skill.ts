@@ -1,118 +1,118 @@
 export const skillList = [
   {
     category: "movement",
-    name: "climb",
+    label: "climb",
   },
   {
     category: "movement",
-    name: "scramble",
+    label: "scramble",
   },
   {
     category: "movement",
-    name: "leap",
+    label: "leap",
   },
   {
     category: "movement",
-    name: "stealth",
+    label: "stealth",
   },
   {
     category: "movement",
-    name: "wavewalk",
+    label: "wavewalk",
   },
   {
     category: "detection",
-    name: "scrutinize",
+    label: "scrutinize",
   },
   {
     category: "detection",
-    name: "sense",
+    label: "sense",
   },
   {
     category: "detection",
-    name: "hunt",
+    label: "hunt",
   },
   {
     category: "detection",
-    name: "scry",
+    label: "scry",
   },
   {
     category: "survival",
-    name: "hack",
+    label: "hack",
   },
   {
     category: "survival",
-    name: "break",
+    label: "break",
   },
   {
     category: "survival",
-    name: "gather",
+    label: "gather",
   },
   {
     category: "survival",
-    name: "scavenge",
+    label: "scavenge",
   },
   {
     category: "survival",
-    name: "heal",
+    label: "heal",
   },
   {
     category: "survival",
-    name: "repair",
+    label: "repair",
   },
   {
     category: "creation",
-    name: "craft",
+    label: "craft",
   },
   {
     category: "creation",
-    name: "cook",
+    label: "cook",
   },
   {
     category: "creation",
-    name: "concoct",
+    label: "concoct",
   },
   {
     category: "creation",
-    name: "ritualize",
+    label: "ritualize",
   },
   {
     category: "social",
-    name: "charm",
+    label: "charm",
   },
   {
     category: "social",
-    name: "negotiate",
+    label: "negotiate",
   },
   {
     category: "social",
-    name: "outwit",
+    label: "outwit",
   },
   {
     category: "social",
-    name: "perform",
+    label: "perform",
   },
   {
     category: "social",
-    name: "trance",
+    label: "trance",
   },
   {
     category: "combat",
-    name: "strike",
+    label: "strike",
   },
   {
     category: "combat",
-    name: "shoot",
+    label: "shoot",
   },
   {
     category: "combat",
-    name: "hex",
+    label: "hex",
   },
   {
     category: "combat",
-    name: "block",
+    label: "block",
   },
   {
     category: "combat",
-    name: "dodge",
+    label: "dodge",
   },
 ] as const;
