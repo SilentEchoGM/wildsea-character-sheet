@@ -1,2 +1,5 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+  import Attribute from "$lib/components/Attribute.svelte";
+</script>
+
+<Attribute label="Grace" max={1} value={1} />
