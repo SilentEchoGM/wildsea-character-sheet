@@ -16,11 +16,17 @@ export type Resource = {
   text: string;
 };
 
-export type Background = {
-  label: BackgroundProperty;
+export type BackgroundField = {
+  label: string;
   order: number;
   text: string;
 };
+
+export interface FixedBackgroundField extends BackgroundField {
+  label: BackgroundProperty;
+  order: number;
+  text: string;
+}
 
 export type Milestone = {
   type: "major" | "minor";
@@ -35,8 +41,8 @@ export type Track = {
 };
 
 export type CharacterData = {
-  background: Background[];
-  backgroundNotes: string[];
+  fixedBackgroundFields: FixedBackgroundField[];
+  customBackgroundFields: BackgroundField[];
   milestone: Milestone[];
   drives: string[];
   mires: string[];
